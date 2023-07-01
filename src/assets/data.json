@@ -1,0 +1,41 @@
+{
+    "projects": [
+      {
+        "date": "07/10/2022",
+        "title": "Easy To Find",
+        "description": "A fully functional web application based on HTML,CSS,JS,PHP and APIs to connect student and tutors with each other",
+        "url": "https://github.com/suyash1969/EasyToFind",
+        "imgSrc": "https://cdn.pixabay.com/photo/2018/06/07/16/49/virtual-3460451_960_720.jpg"
+      },
+  
+      {
+        "date": "9/12/2022",
+        "title": "Pharmaceutical Website",
+        "description": "Desigend the full website through HTML,CSS,JAVASCRIPT and also Firebase for Login user where you can order medicine",
+        "url": "https://apoorv-vikram-singh.github.io/Bioparadise-project/",
+        "imgSrc": "data:image/jpeg;base64,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"
+      },
+      {
+        "date": "15/6/2022",
+        "title": "Multi-Tasking Android App:",
+        "description": "It's  a solo project based on Android in which user can perform multiple task in a single-application.Technology used in this project in JAVA",
+        "url": "https://github.com/Apoorv-vikram-singh/resume1/tree/main",
+        "imgSrc": "https://cdn.pixabay.com/photo/2017/12/12/12/44/bitcoin-3014614_960_720.jpg"
+      },
+  
+      {
+        "date": "3/3/2023",
+        "title": "ResX",
+        "description": "It is a website where we can create resume and in this project technology is used MONGO-DB,Express,Node-js,HTML ,JAVASCRIPT,CSS",
+        "url": "https://github.com/Apoorv-vikram-singh/resume1/tree/main",
+        "imgSrc": "https://www.resumebuilder.com/wp-content/themes/resumebuilder/assets/images/desktop-with-resume-.svg"
+      },
+      {
+        "date": "20/6/2023",
+        "title": "PORTFOLIO",
+        "description": "This is the sample description about the project details. The more details the more details and evenually more details because I don't have anything to write",
+        "url": "/",
+        "imgSrc": "https://cdn.pixabay.com/photo/2020/03/19/21/25/cactus-4948833_960_720.jpg"
+      }
+    ]
+  }
