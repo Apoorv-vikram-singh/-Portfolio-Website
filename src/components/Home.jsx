@@ -3,7 +3,7 @@ import {animate, motion} from "framer-motion";
 import Typewriter from "typewriter-effect";
 import {BsArrowUpRight, BsChevronDown} from "react-icons/bs";
 import me from "../assets/ap.png"
-const Home =()=>{
+const Home =({ratio})=>{
 
 
         const clienCount=useRef(null);
@@ -69,14 +69,22 @@ const Home =()=>{
 
         <article>
             <p>
-            +<motion.span whileInView={animationsClientCount} ref={clienCount}></motion.span>
+            +{
+                ratio < 3 && (
+                    <motion.span whileInView={animationsClientCount} ref={clienCount}></motion.span>
+                )
+            }
             </p>
             <spam>Clients Worldwide</spam>
         </article>
         <aside>
         <article>
             <p>
-                +<motion.span whileInView={animationsProjectCount} ref={ProjectCount}></motion.span>
+                +{
+                    ratio < 3 && (
+                        <motion.span whileInView={animationsProjectCount} ref={ProjectCount}></motion.span>
+                    )
+                }
                 
             </p>
             <spam>Projects Done</spam>
